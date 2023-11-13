@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+       
+</head>
+
+<body>
+
+    <section>
+        <div class="container-fluid second-header">
+            <div class="row">
+                <nav class="navbar p-3">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="./index.html"><i>Fashionate</i></a>
+                        <span class="side-menu" style="cursor: pointer;" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                                class="fa-solid fa-bars"></i></span>
+                    </div>
+                </nav>
+
+                <!-- side-nav start -->
+
+                <header>
+                    <div class="sider offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
+                        id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                        <div class="offcanvas-header">
+                            <!-- <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5> -->
+                            <button type="button" class="btn-close position-absolute top-0 end-0"
+                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body d-flex justify-content-center align-items-center text-center">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="menswear.html">Mens</a></li>
+                                <li><a href="womenswear.html">Womens</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="offcanvas-footer">
+                            <div class="row col-md-12 col-lg-12 col-sm-6 col-xs-6 d-flex social-links">
+                                <div class="col-md-6 text-start" style="padding: 10px 0px 10px 40px;">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                    <i class="fa-brands fa-youtube"></i>
+                                </div>
+                                <div class="col-md-6 text-end" style="padding: 10px 40px 10px 0px;">
+                                    <p>
+                                        Copyright © 2023 All Rights Reserved
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </header>
+
+                <!-- side-nav end  -->
+
+            </div>
+
+            <div class="row second-header-content d-flex ">
+                <h1>WEAR</h1>
+                <h2>THE FASHION THAT IS UNIQUE,</h2>
+                <h2>SERENE & <span>BEAUTIFUL</span></h2>
+                <h3>just like you!</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- old one  -->
+
+    <!-- <section class="wrapper">
+        <div class="title" id="about">
+            <h1>About Us</h1>
+            <br>
+            <p>They were four men living all together yet they were all alone you wanna be where you can see our troubles are all the same you wanna be where everybody knows your name a man is born.
+                He is a man of means then along come two they got nothing but their jeans said californey is the place you ought to be so they loaded up the truck and moved to beverly hills that is swimming pools movie stars here is the story of a man named brady who was busy with three boys of his own.</p>
+        </div>
+        <div class="scroll">
+            <div>
+                <h2>Web Developer</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad beatae provident expedita mollitia magni
+                    aliquam! Harum distinctio at est. Consequuntur suscipit maxime, omnis corporis quo excepturi qui.
+                    Aperiam dolorum quaerat error consequuntur. Iusto aliquid quasi asperiores magni aut tempore dicta,
+                    veritatis perferendis. Provident reprehenderit temporibus blanditiis nisi hic? Dolorem, voluptas?
+                </p>
+            </div>
+            <div>
+                <h2>Tech Lover</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad beatae provident expedita mollitia magni
+                    aliquam! Harum distinctio at est. Consequuntur suscipit maxime, omnis corporis quo excepturi qui.
+                    Aperiam dolorum quaerat error consequuntur. Iusto aliquid quasi asperiores magni aut tempore dicta,
+                    veritatis perferendis. Provident reprehenderit temporibus blanditiis nisi hic? Dolorem, voluptas?
+                </p>
+            </div>
+            <div>
+                <h2>Inquisitive</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad beatae provident expedita mollitia magni
+                    aliquam! Harum distinctio at est. Consequuntur suscipit maxime, omnis corporis quo excepturi qui.
+                    Aperiam dolorum quaerat error consequuntur. Iusto aliquid quasi asperiores magni aut tempore dicta,
+                    veritatis perferendis. Provident reprehenderit temporibus blanditiis nisi hic? Dolorem, voluptas?
+                </p>
+            </div>
+        </div>
+    </section> -->
+
+
+
+    <section class="wrapper">
+        <div class="title" id="about">
+            <h3>WHO WE ARE</h3>
+            <h1>Get to know about us</h1>
+            <br>
+            <p>They were four men living all together yet they were all alone you wanna be where you can see our
+                troubles are all the same you wanna be where everybody knows your name a man is born.
+                <br> He is a man of means then along come two they got nothing but their jeans said californey is the
+                place you ought to be so they loaded up the truck and moved to beverly hills that is swimming pools
+                movie stars here is the story of a man named brady who was busy with three boys of his own.
+            </p>
+            <img width="180px" src="https://upload.wikimedia.org/wikipedia/en/9/9e/ProfGanaSignature.png" alt="">
+            <h5>Stephen Spilberg - Founder</h5>
+        </div>
+        <div class="scroll">
+            <div class="scroll-01">
+                <h2>Casual Wear </h2>
+            </div>
+            <div class="scroll-02">
+                <h2>Party Wear </h2>
+            </div>
+            <div class="scroll-03">
+                <h2>Office Wear </h2>
+            </div>
+            <div class="scroll-04">
+                <h2>Wedding Wear </h2>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row bg-warning">
+                <div class="col-md-12">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active d-flex row">
+                                <div class="col-md-4">
+                                    <img width="500px"
+                                        src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/Adidas.png"
+                                        class="d-block m-2" alt="...">
+                                </div>
+                                <div class="col-md-4">
+                                    <img width="500px"
+                                        src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/Adidas.png"
+                                        class="d-block m-2" alt="...">
+                                </div>
+                                <div class="col-md-4">
+                                    <img width="500px"
+                                        src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/Adidas.png"
+                                        class="d-block m-2" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img width="500px"
+                                    src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/chanel.png"
+                                    class="d-block" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img width="500px"
+                                    src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/gucci-logo.png"
+                                    class="d-block" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <section>
+            <div class="container-fluid">
+                <div class="row kol">
+                    <div class="col-3">
+                        <h1>hello</h1>
+                    </div>
+                    <div class="col-3">
+                        <h1>hey</h1>
+                    </div>
+                    <div class="col-3">
+                        <h1>hi</h1>
+                    </div>
+                    <div class="col-3">
+                        <h1>eve</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3 lisst">
+                        <ul>
+                            <li>first</li>
+                            <li>second</li>
+                            <li>third</li>
+                        </ul>
+                    </div>
+                    <div class="col-3 lisst">
+                        <ul>
+                            <li>first</li>
+                            <li>second</li>
+                            <li>third</li>
+                        </ul>
+                    </div>
+                    <div class="col-3 lisst">
+                        <ul>
+                            <li>first</li>
+                            <li>second</li>
+                            <li>third</li>
+                        </ul>
+                    </div>
+                    <div class="col-3 lisst">
+                        <ul>
+                            <li>first</li>
+                            <li>second</li>
+                            <li>third</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+
+
+    <!-- <footer>
+        <a href="https://github.com/orangegrove1955/split-screen-parallax">
+            <i class="fas fa-code"></i>
+        </a>
+        <a href="https://orangegrove1955.github.io/">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/matthew-t-williams/">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </footer> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

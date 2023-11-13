@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+</head>
+
+<body>
+
+ 
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar p-3">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><i>Fashionate</i></a>
+                        <span class="side-menu" style="cursor: pointer;" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                                class="fa-solid fa-bars"></i></span>
+                    </div>
+                </nav>
+
+                <!-- side-nav start -->
+
+                <header>
+                    <div class="sider offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
+                        id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                        <div class="offcanvas-header">
+                            <!-- <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5> -->
+                            <button type="button" class="btn-close position-absolute top-0 end-0"
+                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body d-flex justify-content-center align-items-center text-center">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="menswear.html">Mens</a></li>
+                                <li><a href="womenswear.html">Womens</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="offcanvas-footer">
+                            <div class="row col-md-12 col-lg-12 col-sm-6 col-xs-6 d-flex social-links">
+                                <div class="col-md-6 text-start" style="padding: 10px 0px 10px 40px;">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                    <i class="fa-brands fa-youtube"></i>
+                                </div>
+                                <div class="col-md-6 text-end" style="padding: 10px 40px 10px 0px;">
+                                    <p>
+                                        Copyright © 2023 All Rights Reserved
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </header>
+
+                <!-- side-nav end  -->
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+   
+  <section>
+    <video autoplay loop muted plays-inline class="background-video">
+        <source src="/loeuvre video.mp4" type="video/mp4">
+    </video>
+
+    <div style="color: rgb(81, 79, 79);" class="content wow slideInLeft " data-wow-duration="2s ">
+        <h1>
+            LOEUVRE
+        </h1>
+        <div class="button"><a href="home.html"> Explore</a></div>
+    </div>
+  </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.items .slide{
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background-color: orange;
+    color: #fff;
+}
+.items {
+    max-width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+.slick-prev::before, .slick-next::before {
+  color: #000 !important;
+}
+.slick-initialized .slick-slide{
+  padding: 0 5px;
+}
+.visit-website{
+  text-align: center;
+}
+.visit-website a{
+  background: orange;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 2rem;
+  border-radius: 5px;
+  color: #fff;
+}
+@media (max-width: 1200px){
+  .items{max-width: 70%}
+}
+@media (max-width: 1024px){
+  .items{max-width: 90%}
+}
